@@ -144,3 +144,30 @@ body {
   .socials a {
     display: inline-block;
   }
+
+  .bg-4 {
+    background-image: url("../images/au_blue_hills.jpeg"); 
+    height: 400px;
+    filter: brightness(1.1);
+    filter: grayscale(20%);
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    position: static;
+    z-index: -9999;
+    padding: 0;
+  }
+  .bg-3 {
+    background-image: url("../images/au_beach.jpg"); 
+    height: 400px;
+    filter: brightness(1.1);
+    filter: grayscale(20%);
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    position: static;
+    z-index: -9999;
+    padding: 0;
+  }
