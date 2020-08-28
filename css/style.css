@@ -19,7 +19,7 @@ body {
     display:flex;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
-    align-items: center;f
+    align-items: center;
   }
 
 
@@ -70,21 +70,11 @@ body {
   width: 70%;
   font-size: 300%;
   padding-top:250px;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3s steps(30, end),
-    blink-caret .75s step-end infinite;
+  margin: 0 auto; 
+  letter-spacing: .15em; 
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 70% }
-}
 
-  
   .bg-1 {
     background-image: url("../images/fitz.JPG"); 
     height: 400px;
@@ -170,4 +160,11 @@ body {
     position: static;
     z-index: -9999;
     padding: 0;
+  }
+  .center-heading{
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(122, 177, 122);
+    font-size: 40px;
+    font-weight: bold;
   }
