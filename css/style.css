@@ -72,33 +72,30 @@ body {
   }
   .content{
     background: white;
-    width: 100%; height:550px;
+    height:auto;
+    width: 100%; 
     display:flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
   }
   #prof_pic_container{
     float:left;
-    display:flex;
-    width:50%;
     height:inherit;
   }
   #prof_pic{
     margin-top:85px;
     margin-bottom:85px;
-    margin-left:10%;
-    margin-right:10%;
-
+    margin-left:70px;
   }
+
   #abt_me{
     float:right;
     text-align: left;
     height:inherit;
-    width: 50%;
     margin-top:70px;
     margin-bottom: 70px;
-    margin-right:10%;
-    margin-left:10%;
+    margin-left:70px;
+    margin-right:70px;
     font-weight: bold;
     font-size: 20px;
   }
