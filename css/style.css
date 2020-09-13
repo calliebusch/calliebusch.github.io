@@ -77,10 +77,8 @@ body {
     color: #ffffff;
     font-size: 75px;
     letter-spacing: .15em; 
-    position: absolute; 
     width:100%;
     text-align: center center;
-    z-index: 1;
   }
 }
 
