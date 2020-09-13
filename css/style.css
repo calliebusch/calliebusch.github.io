@@ -52,7 +52,7 @@ body {
 
   .bg{
     height:50%;
-    min-height: 40%;
+    min-height: 200px;
     filter: brightness(1.1);
     filter: grayscale(20%);
     background-position: top; 
