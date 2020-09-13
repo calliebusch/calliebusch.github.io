@@ -90,6 +90,9 @@ body {
     font-size:15px;
     font-weight: bold;
   }
+  #bg-1{
+    background-image: url("../images/fitz.JPG");
+  }
 }
 
   #bg-1 {
