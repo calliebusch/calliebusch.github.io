@@ -6,10 +6,15 @@
   padding:0;
 }
 
+html{
+  height:100%;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: 300;
+    height: 100%;
   }
 
   .topnav {
@@ -46,12 +51,13 @@ body {
   }
 
   .bg{
-    height:400px;
+    height:50%;
+    min-height: 40%;
     filter: brightness(1.1);
     filter: grayscale(20%);
     background-position: top; 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover ;
     margin:0;
     background-attachment: fixed;
     bottom:0;
