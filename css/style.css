@@ -44,9 +44,9 @@ body {
     font-size: 75px;
     letter-spacing: .15em; 
     /*padding-bottom: 20px; */
-    position: absolute;
+    position: relative; 
     width:100%;
-    bottom:10%;
+    bottom:-70%;
     text-align: center;
   }
 
