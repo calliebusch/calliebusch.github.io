@@ -73,6 +73,16 @@ body {
   .bg {
     background-attachment: scroll;
   }
+  .page-title {
+    color: #ffffff;
+    font-size: 75px;
+    letter-spacing: .15em; 
+    /*padding-bottom: 20px; */
+    position: absolute; 
+    width:100%;
+    text-align: center center;
+    left:0;
+  }
 }
 
   #bg-1 {
