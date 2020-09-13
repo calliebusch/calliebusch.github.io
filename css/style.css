@@ -64,7 +64,6 @@ body {
     position: static;
     z-index: -9999;
     padding: 0;    
-
   }
 
   #bg-1 {
@@ -77,8 +76,8 @@ body {
     right:0;
     font-size:15px;
     font-weight: bold;
-    margin-right:10px;
-    margin-bottom: 5px;
+    margin-right:1%;
+    margin-bottom: 1%;
   }
   .content{
     background: white;
