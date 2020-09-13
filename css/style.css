@@ -37,10 +37,10 @@ body {
   .page-title {
     text-align:center;
     color: #ffffff;
-    width: 80%;
-    font-size: 300%;
-    padding-top: 250px;
-    margin: 0 auto; 
+    max-width: 95%;
+    font-size: 75px;
+    padding-top: 280px;
+ 
     letter-spacing: .15em; 
   }
 
