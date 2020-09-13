@@ -56,18 +56,26 @@ body {
     min-height: 200px;
     filter: brightness(1.1);
     filter: grayscale(20%);
-    /*background-position: top; */
+    background-position: top; 
     position: relative;
     background-repeat: no-repeat;
     background-size: cover ;
     margin:0;
     background-attachment: fixed;
-    background-position: scroll;
     bottom:0;
     position: static;
     z-index: -9999;
     padding: 0;    
   }
+
+  /*-------- iPads (portrait and landscape) --------*/
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+  .bg {
+    background-attachment: initial;
+}
+}
 
   #bg-1 {
     background-image: url("../images/fitz_2.jpeg"); 
