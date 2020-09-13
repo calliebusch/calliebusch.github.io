@@ -72,13 +72,23 @@ body {
   @media (hover: none) {
   .bg {
     background-attachment: scroll;
+    position: relative;
   }
   .page-title {
     color: #ffffff;
     font-size: 75px;
     letter-spacing: .15em; 
     width:100%;
+    position: absolute;
     text-align: center center;
+  }
+  .caption{
+    position:absolute;
+    color:white;
+    bottom:1%;
+    right:1%;
+    font-size:15px;
+    font-weight: bold;
   }
 }
 
