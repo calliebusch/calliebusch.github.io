@@ -76,11 +76,12 @@ body {
   }
   .page-title {
     color: #ffffff;
+    color:rgb(255, 92, 255);
     font-size: 75px;
     letter-spacing: .15em; 
     width:100%;
     position: absolute;
-    text-align: center center;
+    text-align: center;
   }
   .caption{
     position:absolute;
